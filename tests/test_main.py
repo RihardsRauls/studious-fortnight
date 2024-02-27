@@ -1,4 +1,4 @@
-from main import remover
+from ..main import remover
 
 def test_remover():
     assert remover("I miss my wife") == " mss my wf"
